@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Identidad Visual",
+    "category": "Branding",
+    "year": "2025",
+    "description": {
+      "ES": "Rediseño completo para una marca de moda sostenible.",
+      "EN": "Complete redesign for a sustainable fashion brand.",
+      "CA": "Redisseny complet per a una marca de moda sostenible."
+    },
+    "link": "https://example.com/project1"
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce",
+    "category": "Desarrollo",
+    "year": "2024",
+    "description": {
+      "ES": "Plataforma de venta minimalista con Three.js.",
+      "EN": "Minimalist sales platform with Three.js.",
+      "CA": "Plataforma de venda minimalista amb Three.js."
+    },
+    "link": "https://example.com/project2"
+  },
+  {
+    "id": 3,
+    "title": "Editorial",
+    "category": "Diseño",
+    "year": "2024",
+    "description": {
+      "ES": "Dirección de arte para revista digital de arquitectura.",
+      "EN": "Art direction for digital architecture magazine.",
+      "CA": "Direcció d'art per a revista digital d'arquitectura."
+    },
+    "link": "https://example.com/project3"
+  },
+  {
+    "id": 4,
+    "title": "App Móvil",
+    "category": "UX/UI",
+    "year": "2023",
+    "description": {
+      "ES": "Sistema de gestión financiera personal.",
+      "EN": "Personal financial management system.",
+      "CA": "Sistema de gestió financera personal."
+    },
+    "link": "https://example.com/project4"
+  },
+  {
+    "id": 5,
+    "title": "Exposición Virtual",
+    "category": "Comisariado",
+    "year": "2023",
+    "description": {
+      "ES": "Experiencia inmersiva sobre arte generativo.",
+      "EN": "Immersive experience on generative art.",
+      "CA": "Experiència immersiva sobre art generatiu."
+    },
+    "link": "https://example.com/project5"
+  },
+  {
+    "id": 6,
+    "title": "Data Viz",
+    "category": "Investigación",
+    "year": "2022",
+    "description": {
+      "ES": "Visualización de datos sobre consumo cultural.",
+      "EN": "Data visualization on cultural consumption.",
+      "CA": "Visualització de dades sobre consum cultural."
+    },
+    "link": "https://example.com/project6"
+  },
+  {
+    "id": 7,
+    "title": "Workshop AI",
+    "category": "Docencia",
+    "year": "2022",
+    "description": {
+      "ES": "Taller sobre ética en inteligencia artificial.",
+      "EN": "Workshop on ethics in artificial intelligence.",
+      "CA": "Taller sobre ètica en intel·ligència artificial."
+    },
+    "link": "https://example.com/project7"
+  },
+  {
+    "id": 8,
+    "title": "Instalación Sonora",
+    "category": "Arte",
+    "year": "2021",
+    "description": {
+      "ES": "Obra interactiva basada en ruido urbano.",
+      "EN": "Interactive work based on urban noise.",
+      "CA": "Obra interactiva basada en soroll urbà."
+    },
+    "link": "https://example.com/project8"
+  },
+  {
+    "id": 9,
+    "title": "Consultoría Museos",
+    "category": "Estrategia",
+    "year": "2021",
+    "description": {
+      "ES": "Plan de transformación digital para museo nacional.",
+      "EN": "Digital transformation plan for national museum.",
+      "CA": "Pla de transformació digital per a museu nacional."
+    },
+    "link": "https://example.com/project9"
+  },
+  {
+    "id": 10,
+    "title": "Archivo Digital",
+    "category": "Patrimonio",
+    "year": "2020",
+    "description": {
+      "ES": "Sistema de preservación para arte digital efímero.",
+      "EN": "Preservation system for ephemeral digital art.",
+      "CA": "Sistema de preservació per a art digital efímer."
+    },
+    "link": "https://example.com/project10"
+  }
+]

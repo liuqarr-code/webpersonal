@@ -1,0 +1,164 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* 
+  DESIGN PHILOSOPHY: BRUTALISMO EDITORIAL
+  - Massive Typography: Text is structure.
+  - High Contrast: Pure Black (#000000) on Pure White (#ffffff).
+  - Rigid but Broken Grid: Precision with intentional tension.
+  - Raw Functionality: Obvious, bold interactions.
+*/
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: 0; /* Brutalism prefers sharp edges */
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  
+  --font-display: 'Archivo Black', sans-serif; /* Massive, heavy sans */
+  --font-body: 'Space Mono', monospace; /* Technical contrast */
+}
+
+:root {
+  /* Brutalist Palette: Stark Black & White */
+  --background: #ffffff;
+  --foreground: #000000;
+  
+  --card: #ffffff;
+  --card-foreground: #000000;
+  
+  --popover: #ffffff;
+  --popover-foreground: #000000;
+  
+  --primary: #000000;
+  --primary-foreground: #ffffff;
+  
+  --secondary: #f0f0f0; /* Very light grey for subtle blocking */
+  --secondary-foreground: #000000;
+  
+  --muted: #eeeeee;
+  --muted-foreground: #666666;
+  
+  --accent: #0000ff; /* Electric Blue for aggressive hover/accent */
+  --accent-foreground: #ffffff;
+  
+  --destructive: #ff0000;
+  --destructive-foreground: #ffffff;
+  
+  --border: #000000; /* Solid, visible borders */
+  --input: #000000;
+  --ring: #000000;
+  
+  --radius: 0px; /* No rounded corners */
+}
+
+.dark {
+  /* Inverted Brutalism */
+  --background: #000000;
+  --foreground: #ffffff;
+  
+  --card: #000000;
+  --card-foreground: #ffffff;
+  
+  --popover: #000000;
+  --popover-foreground: #ffffff;
+  
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+  
+  --secondary: #1a1a1a;
+  --secondary-foreground: #ffffff;
+  
+  --muted: #222222;
+  --muted-foreground: #a0a0a0;
+  
+  --accent: #0000ff;
+  --accent-foreground: #ffffff;
+  
+  --destructive: #ff0000;
+  --destructive-foreground: #ffffff;
+  
+  --border: #ffffff;
+  --input: #ffffff;
+  --ring: #ffffff;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased selection:bg-accent selection:text-accent-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display uppercase tracking-tight;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%; /* Full width for brutalism */
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  /* Utility for massive text */
+  .text-massive {
+    font-size: clamp(3rem, 15vw, 12rem);
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+  }
+  
+  .text-big {
+    font-size: clamp(2rem, 8vw, 6rem);
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+  }
+}
+
+@layer utilities {
+  .outline-text {
+    -webkit-text-stroke: 2px var(--foreground);
+    color: transparent;
+    /* Fallback for browsers that don't support text-stroke perfectly with transparent color */
+    paint-order: stroke fill;
+  }
+  
+  @media (min-width: 768px) {
+    .outline-text {
+      -webkit-text-stroke: 3px var(--foreground); /* Reduced slightly for better legibility */
+    }
+  }
+}
