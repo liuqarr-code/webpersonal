@@ -1,8 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Identidad Visual",
-    "category": "Branding",
+    "title": {
+      "ES": "Identidad Visual",
+      "EN": "Visual Identity",
+      "CA": "Identitat Visual"
+    },
+    "category": {
+      "ES": "Branding",
+      "EN": "Branding",
+      "CA": "Branding"
+    },
     "year": "2025",
     "description": {
       "ES": "Rediseño completo para una marca de moda sostenible.",
@@ -13,8 +21,16 @@
   },
   {
     "id": 2,
-    "title": "E-Commerce",
-    "category": "Desarrollo",
+    "title": {
+      "ES": "E-Commerce",
+      "EN": "E-Commerce",
+      "CA": "Comerç Electrònic"
+    },
+    "category": {
+      "ES": "Desarrollo",
+      "EN": "Development",
+      "CA": "Desenvolupament"
+    },
     "year": "2024",
     "description": {
       "ES": "Plataforma de venta minimalista con Three.js.",
@@ -25,8 +41,16 @@
   },
   {
     "id": 3,
-    "title": "Editorial",
-    "category": "Diseño",
+    "title": {
+      "ES": "Editorial",
+      "EN": "Editorial",
+      "CA": "Editorial"
+    },
+    "category": {
+      "ES": "Diseño",
+      "EN": "Design",
+      "CA": "Disseny"
+    },
     "year": "2024",
     "description": {
       "ES": "Dirección de arte para revista digital de arquitectura.",
@@ -37,8 +61,16 @@
   },
   {
     "id": 4,
-    "title": "App Móvil",
-    "category": "UX/UI",
+    "title": {
+      "ES": "App Móvil",
+      "EN": "Mobile App",
+      "CA": "App Mòbil"
+    },
+    "category": {
+      "ES": "UX/UI",
+      "EN": "UX/UI",
+      "CA": "UX/UI"
+    },
     "year": "2023",
     "description": {
       "ES": "Sistema de gestión financiera personal.",
@@ -49,8 +81,16 @@
   },
   {
     "id": 5,
-    "title": "Exposición Virtual",
-    "category": "Comisariado",
+    "title": {
+      "ES": "Exposición Virtual",
+      "EN": "Virtual Exhibition",
+      "CA": "Exposició Virtual"
+    },
+    "category": {
+      "ES": "Comisariado",
+      "EN": "Curating",
+      "CA": "Comissariat"
+    },
     "year": "2023",
     "description": {
       "ES": "Experiencia inmersiva sobre arte generativo.",
@@ -61,8 +101,16 @@
   },
   {
     "id": 6,
-    "title": "Data Viz",
-    "category": "Investigación",
+    "title": {
+      "ES": "Data Viz",
+      "EN": "Data Viz",
+      "CA": "Visualització de Dades"
+    },
+    "category": {
+      "ES": "Investigación",
+      "EN": "Research",
+      "CA": "Recerca"
+    },
     "year": "2022",
     "description": {
       "ES": "Visualización de datos sobre consumo cultural.",
@@ -73,8 +121,16 @@
   },
   {
     "id": 7,
-    "title": "Workshop AI",
-    "category": "Docencia",
+    "title": {
+      "ES": "Workshop AI",
+      "EN": "AI Workshop",
+      "CA": "Taller IA"
+    },
+    "category": {
+      "ES": "Docencia",
+      "EN": "Teaching",
+      "CA": "Docència"
+    },
     "year": "2022",
     "description": {
       "ES": "Taller sobre ética en inteligencia artificial.",
@@ -85,8 +141,16 @@
   },
   {
     "id": 8,
-    "title": "Instalación Sonora",
-    "category": "Arte",
+    "title": {
+      "ES": "Instalación Sonora",
+      "EN": "Sound Installation",
+      "CA": "Instal·lació Sonora"
+    },
+    "category": {
+      "ES": "Arte",
+      "EN": "Art",
+      "CA": "Art"
+    },
     "year": "2021",
     "description": {
       "ES": "Obra interactiva basada en ruido urbano.",
@@ -97,8 +161,16 @@
   },
   {
     "id": 9,
-    "title": "Consultoría Museos",
-    "category": "Estrategia",
+    "title": {
+      "ES": "Consultoría Museos",
+      "EN": "Museum Consulting",
+      "CA": "Consultoria Museus"
+    },
+    "category": {
+      "ES": "Estrategia",
+      "EN": "Strategy",
+      "CA": "Estratègia"
+    },
     "year": "2021",
     "description": {
       "ES": "Plan de transformación digital para museo nacional.",
@@ -109,8 +181,16 @@
   },
   {
     "id": 10,
-    "title": "Archivo Digital",
-    "category": "Patrimonio",
+    "title": {
+      "ES": "Archivo Digital",
+      "EN": "Digital Archive",
+      "CA": "Arxiu Digital"
+    },
+    "category": {
+      "ES": "Patrimonio",
+      "EN": "Heritage",
+      "CA": "Patrimoni"
+    },
     "year": "2020",
     "description": {
       "ES": "Sistema de preservación para arte digital efímero.",

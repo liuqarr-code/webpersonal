@@ -6,8 +6,16 @@ import projectsData from "@/data/projects.json";
 
 interface Project {
   id: number;
-  title: string;
-  category: string;
+  title: {
+    ES: string;
+    EN: string;
+    CA: string;
+  };
+  category: {
+    ES: string;
+    EN: string;
+    CA: string;
+  };
   year: string;
   description: {
     ES: string;
@@ -32,33 +40,23 @@ export default function ProjectList() {
     loadMoreProjects();
   }, []);
 
-  // Infinite scroll observer
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && hasMore) {
-          loadMoreProjects();
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (loaderRef.current) {
-      observer.observe(loaderRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, [hasMore, page]);
+  // Infinite scroll observer removed in favor of manual button
 
   const loadMoreProjects = () => {
-    const nextItems = projectsData.slice(0, page * ITEMS_PER_PAGE);
+    // Type assertion to match the updated JSON structure
+    const allProjects = projectsData as unknown as Project[];
+    const nextItems = allProjects.slice(0, page * ITEMS_PER_PAGE);
     setVisibleProjects(nextItems);
     
-    if (nextItems.length >= projectsData.length) {
+    if (nextItems.length >= allProjects.length) {
       setHasMore(false);
     } else {
       setPage(prev => prev + 1);
     }
+  };
+
+  const getLocalizedText = (obj: { ES: string; EN: string; CA: string }) => {
+    return obj[language as keyof typeof obj] || obj.ES;
   };
 
   return (
@@ -80,12 +78,14 @@ export default function ProjectList() {
                 {(index + 1).toString().padStart(2, '0')}
               </span>
               <h3 className="font-display text-3xl md:text-7xl uppercase leading-none group-hover:translate-x-4 transition-transform duration-300">
-                {project.title}
+                {getLocalizedText(project.title)}
               </h3>
             </div>
             
             <div className="flex items-center justify-between md:justify-end gap-8 md:w-1/2">
-              <span className="font-body text-xs md:text-sm uppercase tracking-widest">{project.category}</span>
+              <span className="font-body text-xs md:text-sm uppercase tracking-widest">
+                {getLocalizedText(project.category)}
+              </span>
               <span className="font-body text-xs md:text-sm">{project.year}</span>
               <ArrowUpRight className="w-6 h-6 md:w-12 md:h-12 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
@@ -94,22 +94,27 @@ export default function ProjectList() {
           {/* Description reveal on hover (Desktop) */}
           <div className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none mix-blend-difference text-white w-full text-center">
             <p className="font-body text-lg italic max-w-xl mx-auto">
-              {project.description[language as keyof typeof project.description] || project.description.ES}
+              {getLocalizedText(project.description)}
             </p>
           </div>
         </a>
       ))}
       
-      {/* Loader / Trigger for infinite scroll */}
+      {/* Manual Load More Button */}
       {hasMore && (
-        <div ref={loaderRef} className="py-8 text-center font-body text-sm opacity-50 animate-pulse">
-          LOADING MORE...
+        <div className="py-8 flex justify-center">
+          <button 
+            onClick={loadMoreProjects}
+            className="font-body text-sm opacity-50 hover:opacity-100 transition-opacity uppercase tracking-widest border border-transparent hover:border-foreground px-4 py-2"
+          >
+            {language === 'ES' ? 'CARGAR MÁS' : language === 'CA' ? 'CARREGAR MÉS' : 'LOAD MORE'}
+          </button>
         </div>
       )}
       
       {!hasMore && (
-        <div className="py-8 text-center font-body text-sm opacity-50">
-          END OF ARCHIVE
+        <div className="py-8 text-center font-body text-sm opacity-50 uppercase tracking-widest">
+          {language === 'ES' ? 'FIN DEL ARCHIVO' : language === 'CA' ? 'FI DE L\'ARXIU' : 'END OF ARCHIVE'}
         </div>
       )}
     </div>

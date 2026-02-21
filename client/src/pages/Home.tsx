@@ -12,12 +12,12 @@ type Role = {
 // Define roles with translations
 const roles: Role[] = [
   {
-    line1: { ES: "GESTOR", EN: "MANAGER", CA: "GESTOR" },
-    line2: { ES: "CULTURAL", EN: "CULTURAL", CA: "CULTURAL" }
+    line1: { ES: "GESTOR", EN: "CULTURAL", CA: "GESTOR" },
+    line2: { ES: "CULTURAL", EN: "MANAGER", CA: "CULTURAL" }
   },
   {
-    line1: { ES: "COMISARIO", EN: "CURATOR", CA: "COMISSARI" },
-    line2: { ES: "ARTE DIGITAL", EN: "DIGITAL ART", CA: "ART DIGITAL" }
+    line1: { ES: "COMISARIO", EN: "ART", CA: "COMISSARI" },
+    line2: { ES: "ARTE DIGITAL", EN: "CURATOR", CA: "ART DIGITAL" }
   },
   {
     line1: { ES: "CONSULTOR", EN: "CONSULTANT", CA: "CONSULTOR" },
