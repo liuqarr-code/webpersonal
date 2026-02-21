@@ -91,9 +91,9 @@ export default function ProjectList() {
             </div>
           </div>
           
-          {/* Description reveal on hover (Desktop) */}
-          <div className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none mix-blend-difference text-white w-full text-center">
-            <p className="font-body text-lg italic max-w-xl mx-auto">
+          {/* Description reveal on hover (Desktop) - Positioned below title */}
+          <div className="hidden md:block absolute bottom-4 left-0 right-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none mix-blend-difference text-white w-full text-center z-20">
+            <p className="font-body text-lg italic max-w-2xl mx-auto px-4">
               {getLocalizedText(project.description)}
             </p>
           </div>
