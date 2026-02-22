@@ -1,202 +1,268 @@
 [
   {
-    "id": 1,
     "title": {
-      "ES": "Identidad Visual",
-      "EN": "Visual Identity",
-      "CA": "Identitat Visual"
+      "ES": "Al calor devenimos hembras",
+      "EN": "In the Heat We Become Female",
+      "CA": "A la calor esdevenim femelles"
     },
     "category": {
-      "ES": "Branding",
-      "EN": "Branding",
-      "CA": "Branding"
+      "ES": "Investigación artística",
+      "EN": "Artistic Research",
+      "CA": "Recerca Artística"
+    },
+    "year": "2026",
+    "description": {
+      "ES": "Proyecto seleccionado para la Beca Barcelona Crea – HacTe.",
+      "EN": "Project selected for the Barcelona Crea Grant – HacTe.",
+      "CA": "Projecte seleccionat per a la Beca Barcelona Crea – HacTe."
+    },
+    "link": "https://www.hactebcn.org/es/actualitat/el-proyecto-al-calor-devenimos-hembras-seleccionado-para-la-beca-barcelona-crea-hacte/"
+  },
+  {
+    "title": {
+      "ES": "Zona Hacker",
+      "EN": "Hacker Zone",
+      "CA": "Zona Hacker"
+    },
+    "category": {
+      "ES": "Laboratorio Ciudadano",
+      "EN": "Citizen Lab",
+      "CA": "Laboratori Ciutadà"
+    },
+    "year": "2025–2026",
+    "description": {
+      "ES": "Laboratorio de justicia digital en bibliotecas con videojuegos y co-creación.",
+      "EN": "Digital justice lab in libraries using video games and co-creation.",
+      "CA": "Laboratori de justícia digital en biblioteques amb videojocs i co-creació."
+    },
+    "link": "https://zonahacker.arsgames.net/"
+  },
+  {
+    "title": {
+      "ES": "Nostalgia de Futuro: atravesando el colapso ",
+      "EN": "Nostalgia for the Future: Traversing the Collapse",
+      "CA": "Nostàlgia de Futur: travessant el col·lapse"
+    },
+    "category": {
+      "ES": "Exposición",
+      "EN": "Exhibition",
+      "CA": "Exposició"
+    },
+    "year": "2025–2026",
+    "description": {
+      "ES": "Exposición en la sala 'La Capella', Barcelona.",
+      "EN": "Exhibition at La Capella, Barcelona.",
+      "CA": "Exposició a la sala 'La Capella', Barcelona."
+    },
+    "link": "https://www.lacapella.barcelona/es/programacion/exposiciones/nostalgia-de-futuro-atravesando-el-colapso"
+  },
+  {
+    "title": {
+      "ES": "Homo Ludens: videojuegos para entender el presente",
+      "EN": "Homo Ludens: videogames to understand the present",
+      "CA": "Homo Ludens: videjocs per entendre el present"
+    },
+    "category": {
+      "ES": "Exposición",
+      "EN": "Exhibition",
+      "CA": "Exposició"
+    },
+    "year": "2020–2024",
+    "description": {
+      "ES": "Exposición sobre el videojuego como objeto cultural y artístico.",
+      "EN": "Exhibition on video games as cultural and artistic objects.",
+      "CA": "Exposició sobre el videojoc com a objecte cultural i artístic."
+    },
+    "link": "https://caixaforum.org/es/barcelona/p/homo-ludens-barcelona"
+  },
+  {
+    "title": {
+      "ES": "La Ciudad Visible / La Ciudad en Juego",
+      "EN": "The Visible City / The City at Play",
+      "CA": "La Ciutat Visible / La Ciutat en Joc"
+    },
+    "category": {
+      "ES": "Urbanismo y Videojuegos",
+      "EN": "Urbanism & Video Games",
+      "CA": "Urbanisme i Videojocs"
+    },
+    "year": "2024–2025",
+    "description": {
+      "ES": "Exposición sobre juegos y espacio urbano.",
+      "EN": " exhibition on games and urban space.",
+      "CA": "Exposició sobre jocs i espai urbà."
+    },
+    "link": "https://www.centrocentro.org/exposicion/la-ciudad-visible-la-ciudad-en-juego"
+  },
+  {
+    "title": {
+      "ES": "Narrar [con] la imagen",
+      "EN": "Narrating [with] the Image",
+      "CA": "Narrar [amb] la imatge"
+    },
+    "category": {
+      "ES": "Programa Público",
+      "EN": "Public Program",
+      "CA": "Programa Públic"
     },
     "year": "2025",
     "description": {
-      "ES": "Rediseño completo para una marca de moda sostenible.",
-      "EN": "Complete redesign for a sustainable fashion brand.",
-      "CA": "Redisseny complet per a una marca de moda sostenible."
+      "ES": "Actividad sobre imagen videolúdica en Foto Colectania.",
+      "EN": "Activity on videoludic image at Foto Colectania.",
+      "CA": "Activitat sobre imatge videolúdica a Foto Colectania."
     },
-    "link": "https://example.com/project1"
+    "link": "https://fotocolectania.org/es/activity/464/narrar-con-la-imagen-videoludica"
   },
   {
-    "id": 2,
     "title": {
-      "ES": "E-Commerce",
-      "EN": "E-Commerce",
-      "CA": "Comerç Electrònic"
+      "ES": "Descolonizar la imagen",
+      "EN": "Decolonizing the Image",
+      "CA": "Descolonitzar la imatge"
     },
     "category": {
-      "ES": "Desarrollo",
-      "EN": "Development",
-      "CA": "Desenvolupament"
+      "ES": "Taller",
+      "EN": "Workshop",
+      "CA": "Taller"
+    },
+    "year": "2025",
+    "description": {
+      "ES": "Taller de teoría decolonial aplicada al videojuego.",
+      "EN": "Workshop on decolonial theory applied to video games.",
+      "CA": "Taller de teoria decolonial aplicada al videojoc."
+    },
+    "link": "https://fotocolectania.org/es/activity/465/taller-descolonizar-la-imagen-videoludica"
+  },
+  {
+    "title": {
+      "ES": "Presente y Futuro del Videojuego Español",
+      "EN": "Present and Future of Spanish Video Games",
+      "CA": "Present i Futur del Videojoc Espanyol"
+    },
+    "category": {
+      "ES": "Exposición",
+      "EN": "Exhibition",
+      "CA": "Exposició"
     },
     "year": "2024",
     "description": {
-      "ES": "Plataforma de venta minimalista con Three.js.",
-      "EN": "Minimalist sales platform with Three.js.",
-      "CA": "Plataforma de venda minimalista amb Three.js."
+      "ES": "Exposición y ciclo de actividades en el Instituto Cervantes de Tokio",
+      "EN": "Exhibition and series of activities at the Cervantes Institute in Tokyo",
+      "CA": "Exposició i cicle d'activitats a l'Institut Cervantes de Tòquio"
     },
-    "link": "https://example.com/project2"
+    "link": "https://cultura.cervantes.es/tokio/es/presente-y-futuro-del-videojuego-espa%C3%B1ol/172261"
   },
   {
-    "id": 3,
     "title": {
-      "ES": "Editorial",
-      "EN": "Editorial",
-      "CA": "Editorial"
+      "ES": "GameArtopia - Archivo virtual jugable de Game Art iberoamericano.",
+      "EN": "GameArtopia - Playable virtual archive of Ibero-American Game Art.",
+      "CA": "GameArtopia - Arxiu virtual jugable de Game Art iberoamericà."
     },
     "category": {
-      "ES": "Diseño",
-      "EN": "Design",
-      "CA": "Disseny"
+      "ES": "Archivo Digital",
+      "EN": "Digital Archive",
+      "CA": "Arxiu Digital"
     },
-    "year": "2024",
+    "year": "2023–2024",
     "description": {
-      "ES": "Dirección de arte para revista digital de arquitectura.",
-      "EN": "Art direction for digital architecture magazine.",
-      "CA": "Direcció d'art per a revista digital d'arquitectura."
+      "ES": "",
+      "EN": "",
+      "CA": ""
     },
-    "link": "https://example.com/project3"
+    "link": "https://gameartopia.omeka.net/"
   },
   {
-    "id": 4,
     "title": {
-      "ES": "App Móvil",
-      "EN": "Mobile App",
-      "CA": "App Mòbil"
+      "ES": "Dirección de Tesis",
+      "EN": "Thesis Supervision",
+      "CA": "Direcció de Tesi"
     },
     "category": {
-      "ES": "UX/UI",
-      "EN": "UX/UI",
-      "CA": "UX/UI"
+      "ES": "Academia",
+      "EN": "Academia",
+      "CA": "Acadèmia"
     },
-    "year": "2023",
+    "year": "2025",
     "description": {
-      "ES": "Sistema de gestión financiera personal.",
-      "EN": "Personal financial management system.",
-      "CA": "Sistema de gestió financera personal."
+      "ES": "Supervisión de investigación de máster en artes digitales.",
+      "EN": "Supervision of master's research in digital arts.",
+      "CA": "Supervisió de recerca de màster en arts digitals."
     },
-    "link": "https://example.com/project4"
+    "link": "#"
   },
   {
-    "id": 5,
     "title": {
-      "ES": "Exposición Virtual",
-      "EN": "Virtual Exhibition",
-      "CA": "Exposició Virtual"
-    },
-    "category": {
-      "ES": "Comisariado",
-      "EN": "Curating",
-      "CA": "Comissariat"
-    },
-    "year": "2023",
-    "description": {
-      "ES": "Experiencia inmersiva sobre arte generativo.",
-      "EN": "Immersive experience on generative art.",
-      "CA": "Experiència immersiva sobre art generatiu."
-    },
-    "link": "https://example.com/project5"
-  },
-  {
-    "id": 6,
-    "title": {
-      "ES": "Data Viz",
-      "EN": "Data Viz",
-      "CA": "Visualització de Dades"
-    },
-    "category": {
-      "ES": "Investigación",
-      "EN": "Research",
-      "CA": "Recerca"
-    },
-    "year": "2022",
-    "description": {
-      "ES": "Visualización de datos sobre consumo cultural.",
-      "EN": "Data visualization on cultural consumption.",
-      "CA": "Visualització de dades sobre consum cultural."
-    },
-    "link": "https://example.com/project6"
-  },
-  {
-    "id": 7,
-    "title": {
-      "ES": "Workshop AI",
-      "EN": "AI Workshop",
-      "CA": "Taller IA"
+      "ES": "Docencia Máster",
+      "EN": "Master's Teaching",
+      "CA": "Docència Màster"
     },
     "category": {
       "ES": "Docencia",
       "EN": "Teaching",
       "CA": "Docència"
     },
-    "year": "2022",
+    "year": "2023–2026",
     "description": {
-      "ES": "Taller sobre ética en inteligencia artificial.",
-      "EN": "Workshop on ethics in artificial intelligence.",
-      "CA": "Taller sobre ètica en intel·ligència artificial."
+      "ES": "Pensamiento computacional y teoría de arte digital en BAU.",
+      "EN": "Computational thinking and digital art theory at BAU.",
+      "CA": "Pensament computacional i teoria d'art digital a BAU."
     },
-    "link": "https://example.com/project7"
+    "link": "https://www.baued.es/estudios/masters-y-posgrados/master-en-artes-digitales-y-programacion-creativa"
   },
   {
-    "id": 8,
     "title": {
-      "ES": "Instalación Sonora",
-      "EN": "Sound Installation",
-      "CA": "Instal·lació Sonora"
+      "ES": "AudiogamesXR",
+      "EN": "AudiogamesXR",
+      "CA": "AudiogamesXR"
     },
     "category": {
-      "ES": "Arte",
-      "EN": "Art",
-      "CA": "Art"
+      "ES": "Videojuego VR",
+      "EN": "VR Video Game",
+      "CA": "Videojoc VR"
     },
-    "year": "2021",
+    "year": "2024–2025",
     "description": {
-      "ES": "Obra interactiva basada en ruido urbano.",
-      "EN": "Interactive work based on urban noise.",
-      "CA": "Obra interactiva basada en soroll urbà."
+      "ES": "Experiencia lúdico-sonora inmersiva.",
+      "EN": "Immersive ludic-sonic experience.",
+      "CA": "Experiència lúdico-sonora immersiva."
     },
-    "link": "https://example.com/project8"
+    "link": "https://audiogamesxr.com/"
   },
   {
-    "id": 9,
     "title": {
-      "ES": "Consultoría Museos",
-      "EN": "Museum Consulting",
-      "CA": "Consultoria Museus"
+      "ES": "Derecho al Juego",
+      "EN": "Right to Play",
+      "CA": "Dret al Joc"
     },
     "category": {
-      "ES": "Estrategia",
-      "EN": "Strategy",
-      "CA": "Estratègia"
+      "ES": "Jornadas",
+      "EN": "Conference",
+      "CA": "Jornades"
     },
-    "year": "2021",
+    "year": "2020–2025",
     "description": {
-      "ES": "Plan de transformación digital para museo nacional.",
-      "EN": "Digital transformation plan for national museum.",
-      "CA": "Pla de transformació digital per a museu nacional."
+      "ES": "Ciclo de debate sobre derechos digitales y cultura.",
+      "EN": "Debate cycle on digital rights and culture.",
+      "CA": "Cicle de debat sobre drets digitals i cultura."
     },
-    "link": "https://example.com/project9"
+    "link": "https://derechoaljuego.digital/"
   },
   {
-    "id": 10,
     "title": {
-      "ES": "Archivo Digital",
-      "EN": "Digital Archive",
-      "CA": "Arxiu Digital"
+      "ES": "Vòrtex",
+      "EN": "Vòrtex",
+      "CA": "Vòrtex"
     },
     "category": {
-      "ES": "Patrimonio",
-      "EN": "Heritage",
-      "CA": "Patrimoni"
+      "ES": "Incubadora",
+      "EN": "Incubator",
+      "CA": "Incubadora"
     },
-    "year": "2020",
+    "year": "2023",
     "description": {
-      "ES": "Sistema de preservación para arte digital efímero.",
-      "EN": "Preservation system for ephemeral digital art.",
-      "CA": "Sistema de preservació per a art digital efímer."
+      "ES": "Micro-incubadora de videojuegos sociales y alternativos.",
+      "EN": "Micro-incubator for social and alternative video games.",
+      "CA": "Micro-incubadora de videojocs socials i alternatius."
     },
-    "link": "https://example.com/project10"
+    "link": "https://arsgames.net/vortex/"
   }
 ]

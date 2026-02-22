@@ -36,9 +36,15 @@ export default function Layout({ children }: LayoutProps) {
           </div>
         </div>
 
-        <nav className="flex flex-col items-end gap-1 pointer-events-auto">
+   <nav className="flex flex-col items-end gap-1 pointer-events-auto">
           <a href="https://www.linkedin.com/in/luca-carrubba/" target="_blank" rel="noopener noreferrer" className="font-body text-sm hover:bg-white hover:text-black px-1 transition-colors">
             {t("nav.contact")}
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="font-body text-sm hover:bg-white hover:text-black px-1 transition-colors">
+            INSTAGRAM
+          </a>
+          <a href="https://academia.edu" target="_blank" rel="noopener noreferrer" className="font-body text-sm hover:bg-white hover:text-black px-1 transition-colors">
+            ACADEMIA
           </a>
           <Link href="/bio" className="font-body text-xs opacity-50 hover:opacity-100 hover:underline decoration-2 underline-offset-2 transition-all">
             {t("nav.bio")}
@@ -53,10 +59,10 @@ export default function Layout({ children }: LayoutProps) {
       <footer className="p-4 md:p-8 border-t-4 border-foreground mt-auto">
         <div className="flex flex-col md:flex-row justify-between items-end gap-4">
           <h2 className="font-display text-4xl md:text-6xl uppercase leading-none">
-            {t("footer.creating")}<br />{t("footer.future")}
+            
           </h2>
           <div className="text-right font-body text-xs md:text-sm">
-            <p>© 2026 MANUS AI.</p>
+            <p>Copyleft 2026 Luca Carrubba</p>
             <p>{t("footer.designed")}</p>
           </div>
         </div>
