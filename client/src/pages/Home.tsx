@@ -1,7 +1,9 @@
 import Layout from "@/components/Layout";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import ProjectList from "@/components/ProjectList";
+import { ChevronDown } from "lucide-react";
+import projectsData from "@/data/projects.json";
 
 // Define role types for translations
 type Role = {
@@ -12,28 +14,26 @@ type Role = {
 // Define roles with translations
 const roles: Role[] = [
   {
-    line1: { ES: "INVESTIGADOR", EN: "CULTURAL", CA: "GESTOR" },
-    line2: { ES: "INDEPENDIENTE", EN: "MANAGER", CA: "CULTURAL" }
+    line1: { ES: "GESTOR", EN: "MANAGER", CA: "GESTOR" },
+    line2: { ES: "CULTURAL", EN: "CULTURAL", CA: "CULTURAL" }
   },
   {
-    line1: { ES: "COMISARIO", EN: "ART", CA: "COMISSARI" },
-    line2: { ES: "ARTE", EN: "CURATOR", CA: "ART DIGITAL" }
+    line1: { ES: "COMISARIO", EN: "CURATOR", CA: "COMISSARI" },
+    line2: { ES: "ARTE DIGITAL", EN: "DIGITAL ART", CA: "ART DIGITAL" }
   },
   {
     line1: { ES: "CONSULTOR", EN: "CONSULTANT", CA: "CONSULTOR" },
-    line2: { ES: "CULTURA DIGITAL", EN: "TECH & CULTURE", CA: "TECNOLOGIA I CULTURA" }
-  },
-  {
-    line1: { ES: "ESPECIALISTA", EN: "CONSULTANT", CA: "CONSULTOR" },
-    line2: { ES: "EN ESTUDIO DEL JUEGO", EN: "TECH & CULTURE", CA: "TECNOLOGIA I CULTURA" }
+    line2: { ES: "TECNOLOGÍA Y CULTURA", EN: "TECH & CULTURE", CA: "TECNOLOGIA I CULTURA" }
   }
 ];
-
 
 export default function Home() {
   const { t, language } = useLanguage();
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [fade, setFade] = useState(true);
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [isCategoryMenuOpen, setIsCategoryMenuOpen] = useState(false);
+  const categoryMenuRef = useRef<HTMLDivElement>(null);
 
   // Rotate roles every 2 seconds
   useEffect(() => {
@@ -48,7 +48,49 @@ export default function Home() {
     return () => clearInterval(interval);
   }, []);
 
+  // Close menu when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (categoryMenuRef.current && !categoryMenuRef.current.contains(event.target as Node)) {
+        setIsCategoryMenuOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   const currentRole = roles[currentRoleIndex];
+
+  // Extract unique categories dynamically from JSON
+  const categories = useMemo(() => {
+    // Get all categories in current language
+    const allCats = projectsData.map(p => {
+      // Access category by current language key, fallback to ES
+      return (p.category as any)[language] || (p.category as any).ES;
+    });
+    
+    // Deduplicate
+    const uniqueCats = Array.from(new Set(allCats)).sort();
+    
+    // Format for dropdown
+    return [
+      { key: null, label: t("projects.all") },
+      ...uniqueCats.map(cat => ({
+        key: cat as string,
+        label: cat as string
+      }))
+    ];
+  }, [language, t]); // Re-calculate when language changes
+
+  const handleCategorySelect = (categoryKey: string | null) => {
+    setSelectedCategory(categoryKey);
+    setIsCategoryMenuOpen(false);
+  };
+
+  // Find label for current selection
+  const currentCategoryLabel = selectedCategory 
+    ? selectedCategory 
+    : t("projects.selection");
 
   return (
     <Layout>
@@ -81,12 +123,41 @@ export default function Home() {
 
       {/* Projects List */}
       <section className="mb-24">
-        <div className="flex items-baseline justify-between border-b-4 border-foreground pb-4 mb-8">
+        <div className="flex flex-col md:flex-row md:items-baseline justify-between border-b-4 border-foreground pb-4 mb-8 gap-4">
           <h2 className="font-display text-4xl md:text-6xl uppercase">{t("projects.title")}</h2>
-          <span className="font-body text-sm md:text-base">{t("projects.selection")}</span>
+          
+          {/* Category Filter Dropdown */}
+          <div className="relative z-50" ref={categoryMenuRef}>
+            <button 
+              onClick={() => setIsCategoryMenuOpen(!isCategoryMenuOpen)}
+              className="font-body text-sm md:text-base uppercase tracking-widest flex items-center gap-2 hover:opacity-70 transition-opacity border border-transparent hover:border-foreground px-4 py-2"
+            >
+              {currentCategoryLabel}
+              <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isCategoryMenuOpen ? 'rotate-180' : ''}`} />
+            </button>
+            
+            {/* Dropdown Menu */}
+            {isCategoryMenuOpen && (
+              <div className="absolute right-0 top-full mt-2 bg-background border-2 border-foreground w-64 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] dark:shadow-[4px_4px_0px_0px_rgba(255,255,255,1)] transition-all duration-300 origin-top-right max-h-64 overflow-y-auto">
+                <ul className="py-2">
+                  {categories.map((cat, index) => (
+                    <li key={index}>
+                      <button
+                        onClick={() => handleCategorySelect(cat.key)}
+                        className={`w-full text-left px-6 py-3 font-body text-sm uppercase hover:bg-foreground hover:text-background transition-colors ${selectedCategory === cat.key ? 'bg-foreground/10 font-bold' : ''}`}
+                      >
+                        {cat.label}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
         </div>
 
-        <ProjectList />
+        {/* Pass the selected category directly */}
+        <ProjectList selectedCategory={selectedCategory} />
       </section>
 
       {/* About / Philosophy Section */}
@@ -113,4 +184,3 @@ export default function Home() {
     </Layout>
   );
 }
-

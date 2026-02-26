@@ -41,7 +41,7 @@ const translations: Record<string, Record<Language, string>> = {
     CA: "Digital."
   },
   "hero.intro": {
-    ES: "Trabajo en el cruce entre arte, ciencia, tecnología y sociedad, con un foco especial en la cultura digital y los videojuegos como lenguajes contemporáneos.  Diseño exposiciones, programas públicos y laboratorios para activar aprendizaje, pensamiento crítico y participación, y asesoro a instituciones en estrategias de fomento del videojuego y la cultura digital, conectando mediación cultural, educación y diseño de impacto social.",
+    ES: "Mi práctica se sitúa en la intersección crítica entre arte, tecnología y sociedad. Utilizo la investigación académica, el comisariado y la docencia como herramientas intercambiables para decodificar la cultura digital contemporánea. No distingo entre crear una exposición, diseñar un plan de estudios o asesorar una estrategia tecnológica: todos son procesos para construir futuros más legibles.",
     EN: "My practice sits at the critical intersection of art, technology, and society. I use academic research, curating, and teaching as interchangeable tools to decode contemporary digital culture. I make no distinction between creating an exhibition, designing a curriculum, or advising on a tech strategy: all are processes for building more legible futures.",
     CA: "La meva pràctica se situa a la intersecció crítica entre art, tecnologia i societat. Utilitzo la recerca acadèmica, el comissariat i la docència com a eines intercanviables per descodificar la cultura digital contemporània. No distingeixo entre crear una exposició, dissenyar un pla d'estudis o assessorar una estratègia tecnològica: tots són processos per construir futurs més llegibles."
   },
@@ -53,9 +53,39 @@ const translations: Record<string, Record<Language, string>> = {
     CA: "PROJECTES"
   },
   "projects.selection": {
-    ES: "(SELECCIÓN 2023-2026)",
-    EN: "(SELECTION 2023-2026)",
-    CA: "(SELECCIÓ 2023-2026)"
+    ES: "SELECCIÓN 2020-2026",
+    EN: "SELECTION 2020-2026",
+    CA: "SELECCIÓ 2020-2026"
+  },
+  "projects.all": {
+    ES: "TODOS",
+    EN: "ALL",
+    CA: "TOTS"
+  },
+  "category.research": {
+    ES: "INVESTIGACIÓN",
+    EN: "RESEARCH",
+    CA: "RECERCA"
+  },
+  "category.curation": {
+    ES: "COMISARIADO",
+    EN: "CURATION",
+    CA: "COMISSARIAT"
+  },
+  "category.teaching": {
+    ES: "DOCENCIA",
+    EN: "TEACHING",
+    CA: "DOCÈNCIA"
+  },
+  "category.innovation": {
+    ES: "INNOVACIÓN",
+    EN: "INNOVATION",
+    CA: "INNOVACIÓ"
+  },
+  "category.art": {
+    ES: "ARTE",
+    EN: "ART",
+    CA: "ART"
   },
   
   // Philosophy Section

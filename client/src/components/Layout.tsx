@@ -8,6 +8,10 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const { language, setLanguage, t } = useLanguage();
+    // Determine CV filename based on current language
+  const { language: currentLanguage } = useLanguage();
+  const cvFilename = `cv_luca_carrubba_${currentLanguage}.pdf`;
+  const cvPath = `/cv/${cvFilename}`;
 
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden">
@@ -40,15 +44,21 @@ export default function Layout({ children }: LayoutProps) {
           <a href="https://www.linkedin.com/in/luca-carrubba/" target="_blank" rel="noopener noreferrer" className="font-body text-sm hover:bg-white hover:text-black px-1 transition-colors">
             {t("nav.contact")}
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="font-body text-sm hover:bg-white hover:text-black px-1 transition-colors">
+          <a href="https://www.instagram.com/liuqarr" target="_blank" rel="noopener noreferrer" className="font-body text-sm hover:bg-white hover:text-black px-1 transition-colors">
             INSTAGRAM
           </a>
-          <a href="https://academia.edu" target="_blank" rel="noopener noreferrer" className="font-body text-sm hover:bg-white hover:text-black px-1 transition-colors">
+          <a href="https://independent.academia.edu/LucaCarrubba" target="_blank" rel="noopener noreferrer" className="font-body text-sm hover:bg-white hover:text-black px-1 transition-colors">
             ACADEMIA
           </a>
-          <Link href="/bio" className="font-body text-xs opacity-50 hover:opacity-100 hover:underline decoration-2 underline-offset-2 transition-all">
+      <a 
+            href={cvPath}
+            download={cvFilename}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-body text-xs opacity-50 hover:opacity-100 hover:underline decoration-2 underline-offset-2 transition-all mt-2 uppercase cursor-pointer"
+          >
             {t("nav.bio")}
-          </Link>
+          </a>
         </nav>
       </header>
 

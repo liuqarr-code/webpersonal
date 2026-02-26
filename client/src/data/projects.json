@@ -6,8 +6,8 @@
       "CA": "A la calor esdevenim femelles"
     },
     "category": {
-      "ES": "Investigación artística",
-      "EN": "Artistic Research",
+      "ES": "Investigación Artística",
+      "EN": "Art Research",
       "CA": "Recerca Artística"
     },
     "year": "2026",
@@ -25,9 +25,9 @@
       "CA": "Zona Hacker"
     },
     "category": {
-      "ES": "Laboratorio Ciudadano",
-      "EN": "Citizen Lab",
-      "CA": "Laboratori Ciutadà"
+      "ES": "Laboratorio",
+      "EN": "Lab",
+      "CA": "Laboratori"
     },
     "year": "2025–2026",
     "description": {
@@ -82,9 +82,9 @@
       "CA": "La Ciutat Visible / La Ciutat en Joc"
     },
     "category": {
-      "ES": "Urbanismo y Videojuegos",
-      "EN": "Urbanism & Video Games",
-      "CA": "Urbanisme i Videojocs"
+       "ES": "Exposición",
+      "EN": "Exhibition",
+      "CA": "Exposició"
     },
     "year": "2024–2025",
     "description": {
@@ -120,9 +120,9 @@
       "CA": "Descolonitzar la imatge"
     },
     "category": {
-      "ES": "Taller",
-      "EN": "Workshop",
-      "CA": "Taller"
+      "ES": "Programa Público",
+      "EN": "Public Program",
+      "CA": "Programa Públic"
     },
     "year": "2025",
     "description": {
@@ -158,9 +158,9 @@
       "CA": "GameArtopia - Arxiu virtual jugable de Game Art iberoamericà."
     },
     "category": {
-      "ES": "Archivo Digital",
-      "EN": "Digital Archive",
-      "CA": "Arxiu Digital"
+      "ES": "Exposición",
+      "EN": "Exhibition",
+      "CA": "Exposició"
     },
     "year": "2023–2024",
     "description": {
@@ -177,9 +177,9 @@
       "CA": "Direcció de Tesi"
     },
     "category": {
-      "ES": "Academia",
-      "EN": "Academia",
-      "CA": "Acadèmia"
+      "ES": "Docencia",
+      "EN": "Teaching",
+      "CA": "Docència"
     },
     "year": "2025",
     "description": {
@@ -215,9 +215,9 @@
       "CA": "AudiogamesXR"
     },
     "category": {
-      "ES": "Videojuego VR",
-      "EN": "VR Video Game",
-      "CA": "Videojoc VR"
+      "ES": "Investigación Artística",
+      "EN": "Art Research",
+      "CA": "Recerca Artística"
     },
     "year": "2024–2025",
     "description": {
@@ -234,9 +234,9 @@
       "CA": "Dret al Joc"
     },
     "category": {
-      "ES": "Jornadas",
-      "EN": "Conference",
-      "CA": "Jornades"
+      "ES": "Programa Público",
+      "EN": "Public Program",
+      "CA": "Programa Públic"
     },
     "year": "2020–2025",
     "description": {
@@ -248,14 +248,14 @@
   },
   {
     "title": {
-      "ES": "Vòrtex",
-      "EN": "Vòrtex",
-      "CA": "Vòrtex"
+      "ES": "Vòrtex - microincubadora de videojuegos",
+      "EN": "Vòrtex - videogames incubator",
+      "CA": "Vòrtex - microincubadora de videojocs"
     },
     "category": {
-      "ES": "Incubadora",
-      "EN": "Incubator",
-      "CA": "Incubadora"
+      "ES": "Programa Público",
+      "EN": "Public Program",
+      "CA": "Programa Públic"
     },
     "year": "2023",
     "description": {
@@ -264,5 +264,157 @@
       "CA": "Micro-incubadora de videojocs socials i alternatius."
     },
     "link": "https://arsgames.net/vortex/"
+  },
+  {
+    "title": {
+      "ES": "CTRL ALT PLAY: Alternativas Lúdicas al Control",
+      "EN": "CTRL ALT PLAY: Ludic Aleternatives to Control",
+      "CA": "CTRL ALT PLAY: Alternatives Lúdiques al Control"
+    },
+    "category": {
+      "ES": "Exposición",
+      "EN": "Exhibition",
+      "CA": "Exposició"
+    },
+    "year": "2022",
+    "description": {
+      "ES": "Exposición sobre los videojuegos y el concepto de control",
+      "EN": "Exhibition on video games and the concept of control",
+      "CA": "Exposició sobre els videojocs i el concepte de control"
+    },
+    "link": "https://www.flickr.com/photos/195661353@N02/albums/72177720299100575/with/52086006788"
+  },
+  {
+    "title": {
+      "ES": "Diversidad en el videojuego",
+      "EN": "Diversity in Video Games",
+      "CA": "Diversitat en el videojoc"
+    },
+    "category": {
+      "ES": "Consultoría",
+      "EN": "Consultancy",
+      "CA": "Consultoria"
+    },
+    "year": "2025",
+    "description": {
+      "ES": "Análisis de empresas, juegos y entornos sociales.",
+      "EN": "Analysis of companies, games, and social environments.",
+      "CA": "Anàlisi d'empreses, jocs i entorns socials."
+    },
+    "link": "https://culturadigital.blog.gencat.cat/wp-content/uploads/2025/12/Informe_diversitat_-videojoc_conclusions_recomanacions.pdf"
+  },
+  {
+    "title": {
+      "ES": "Estudio sobre estereotipos y género",
+      "EN": "Study on Stereotypes and Gender",
+      "CA": "Estudi sobre estereotips i gènere"
+    },
+    "category": {
+      "ES": "Consultoría",
+      "EN": "Consultancy",
+      "CA": "Consultoria"
+    },
+    "year": "2023",
+    "description": {
+      "ES": "Diagnóstico y soluciones para promover cambios en la industria.",
+      "EN": "Diagnosis and solutions to promote changes in the industry.",
+      "CA": "Diagnòstic i solucions per promoure canvis a la indústria."
+    },
+    "link": "https://cimamujerescineastas.es/wp-content/uploads/2023/03/2023_videojuegos_cima.pdf"
+  },
+  {
+    "title": {
+      "ES": "Diálogo interreligioso",
+      "EN": "Interreligious Dialogue",
+      "CA": "Diàleg interreligiós"
+    },
+    "category": {
+      "ES": "Consultoría",
+      "EN": "Consultancy",
+      "CA": "Consultoria"
+    },
+    "year": "2021",
+    "description": {
+      "ES": "Aproximaciones tecnolúdicas para el diálogo intercultural.",
+      "EN": "Technoludic approaches for intercultural dialogue.",
+      "CA": "Aproximacions tecnolúdiques per al diàleg intercultural."
+    },
+    "link": "https://arsgames.net/wp-content/uploads/2021/10/Informe-religi%C3%B3n-e-interculturalidad_compressed.pdf"
+  },
+  {
+    "title": {
+      "ES": "Industria creativa BCN",
+      "EN": "Creative Industry BCN",
+      "CA": "Indústria creativa BCN"
+    },
+    "category": {
+      "ES": "Consultoría",
+      "EN": "Consultancy",
+      "CA": "Consultoria"
+    },
+    "year": "2020",
+    "description": {
+      "ES": "Videojuegos en Barcelona y Economía Social y Solidaria.",
+      "EN": "Video games in Barcelona and Social and Solidarity Economy.",
+      "CA": "Videojocs a Barcelona i Economia Social i Solidària."
+    },
+    "link": "https://arsgames.net/wp-content/uploads/2020/11/main1.pdf"
+  },
+  {
+    "title": {
+      "ES": "Videojuegos y discapacidad",
+      "EN": "Video Games & Disability",
+      "CA": "Videojocs i discapacitat"
+    },
+    "category": {
+      "ES": "Consultoría",
+      "EN": "Consultancy",
+      "CA": "Consultoria"
+    },
+    "year": "2023",
+    "description": {
+      "ES": "Casos de estudio sobre discapacidad y sus usos.",
+      "EN": "Case studies on disability and its uses.",
+      "CA": "Casos d'estudi sobre discapacitat i els seus usos."
+    },
+    "link": "https://www.amputats-santjordi.org/noticies/els-videojocs-i-la-discapacitat"
+  },
+    {
+    "title": {
+      "ES": "Mesa del Videojuego Catalán",
+      "EN": "Catalan Video Game Council",
+      "CA": "Taula del Videojoc Catalá"
+    },
+    "category": {
+      "ES": "Consultoría",
+      "EN": "Consultancy",
+      "CA": "Consultoria"
+    },
+    "year": "2024-2026",
+    "description": {
+      "ES": "Participación en la definición de actuaciones.",
+      "EN": "Participation in the definition of strategic actions.",
+      "CA": "Participació en la definició d'actuacions."
+    },
+    "link": "https://www.videojocscatalans.cat/taula-videojocs#passem-pantalla"
+  },
+  {
+    "title": {
+      "ES": "PARTICIPA TIC",
+      "EN": "PARTICIPA TIC",
+      "CA": "PARTICIPA TIC"
+    },
+    "category": {
+      "ES": "Consultoría",
+      "EN": "Consultancy",
+      "CA": "Consultoria"
+    },
+    "year": "2023",
+    "description": {
+      "ES": "Investigación sobre participación digital juvenil.",
+      "EN": "Research on youth digital participation.",
+      "CA": "Recerca sobre participació digital juvenil."
+    },
+    "link": "https://www.ferrerguardia.org/web/content/26484?access_token=34915222-5857-4259-afa8-6465cfaa5ea3&unique=f14ad4901fda52c72364bc7a109b90b017b0b642"
   }
 ]
