@@ -1,4 +1,23 @@
 [
+    {
+    "title": {
+      "ES": "RESPAWN",
+      "EN": "RESPAWN",
+      "CA": "RESPAWN"
+    },
+    "category": {
+      "ES": "Programa Público",
+      "EN": "Public Program",
+      "CA": "Programa Públic"
+    },
+    "year": "2026",
+    "description": {
+      "ES": "Laboratorio de pensamiento y cocreación con videojuegos.",
+      "EN": "Laboratory of thinking and co-creation with video games",
+      "CA": "Laboratori de pensament i cocreació amb videojocs."
+    },
+    "link": "https://www.lacasaencendida.es/mediacion/respawn-videojuegos-para-entender-el-presente-y-disenar-futuros"
+  },
   {
     "title": {
       "ES": "Al calor devenimos hembras",
@@ -93,6 +112,24 @@
       "CA": "Exposició sobre jocs i espai urbà."
     },
     "link": "https://www.centrocentro.org/exposicion/la-ciudad-visible-la-ciudad-en-juego"
+  }, {
+    "title": {
+      "ES": "Cartografiar el poder: de la imprenta al algoritmo",
+      "EN": "Mapping power: from the printing press to the algorithm",
+      "CA": "Cartografiar el poder: de la impremta a l'algorisme"
+    },
+    "category": {
+      "ES": "Consultoría",
+      "EN": "Consultancy",
+      "CA": "Consultoria"
+    },
+    "year": "2025",
+    "description": {
+      "ES": "Guión de mediación para el Museo del Diseño.",
+      "EN": "Mediation for the Design Museum.",
+      "CA": "Guió de mediació per al Museu del Disseny."
+    },
+    "link": "https://www.dissenyhub.barcelona/es/actividad/cartografiar-el-poder-de-la-imprenta-al-algoritmo"
   },
   {
     "title": {
