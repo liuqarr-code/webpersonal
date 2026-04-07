@@ -1,4 +1,61 @@
 [
+{
+  "title": {
+    "ES": "Dalí Fellowship Programme",
+    "EN": "Dalí Fellowship Programme",
+    "CA": "Dalí Fellowship Programme"
+  },
+  "category": {
+      "ES": "Investigación Artística",
+      "EN": "Art Research",
+      "CA": "Recerca Artística"
+  },
+  "year": "2026",
+  "description": {
+    "ES": "Beca de investigación - Fundación Gala-Salvador Dalí.",
+    "EN": "Research fellowship - Gala-Salvador Dalí Foundation.",
+    "CA": "Beca de recerca - Fundació Gala-Salvador Dalí."
+  },
+  "link": "https://www.salvador-dali.org/es/fundacion-dali/becas/dali-fellowship-programme/"
+},
+	{
+  "title": {
+    "ES": "Visitante ESBRINA",
+    "EN": "ESBRINA Visitor",
+    "CA": "Visitant ESBRINA"
+  },
+  "category": {
+    "ES": "Docencia",
+    "EN": "Teaching",
+    "CA": "Docència"
+  },
+  "year": "2026",
+  "description": {
+    "ES": "Estancia de investigación en educación y TIC.",
+    "EN": "Research stay in education and ICT.",
+    "CA": "Estada de recerca en educació i TIC."
+  },
+  "link": "https://esbrina.eu/es/visitantes/"
+}, 
+{
+	  "title": {
+		"ES": "Infancias, videojuegos y patrones oscuros de diseño",
+		"EN": "Childhood, Video Games, and Dark Design Patterns",
+		"CA": "Infàncies, videojocs i patrons foscos de disseny"
+	  },
+	  "category": {
+		"ES": "Consultoría",
+		"EN": "Consultancy",
+		"CA": "Consultoria"
+	  },
+	  "year": "2026",
+	  "description": {
+		"ES": "Artículo de opinión sobre retos para la comunidad educativa.",
+		"EN": "Opinion article on challenges for the educational community.",
+		"CA": "Article d'opinió sobre reptes per a la comunitat educativa."
+	  },
+	  "link": "https://eldiariodelaeducacion.com/2026/03/16/videojuegos-online-menores-riesgos-educacion/"
+	},
     {
     "title": {
       "ES": "RESPAWN",
