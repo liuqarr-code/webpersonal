@@ -95,7 +95,7 @@ const translations: Record<string, Record<Language, string>> = {
     CA: "MÈTODE"
   },
   "philosophy.text": {
-    ES: "Empiezo por una pregunta y combino análisis de contexto, investigación académica y diseño de producción. Mi diferencial es una enfoque crítico apoyado en conocimiento técnico de tecnología abierta, que facilita decisiones sostenibles, replicables y con impacto social. ",
+    ES: "Empiezo por una pregunta y combino análisis de contexto, investigación académica y diseño de producción. Mi diferencial es un enfoque crítico apoyado en conocimiento técnico de tecnología abierta, que facilita decisiones sostenibles, replicables y con impacto social. ",
     CA: "Començo des de una pregunta i combino anàlisi de context, recerca academica i disseny de producció. El meu diferencial és una mirada crítica sustentada en coneixement tècnic de tecnologia oberta, que facilita decisions sostenibles, replicables i amb impacte social.",
     EN: "I start from a question combining contextual analysis, academic research, and production design. My strength lies in my critical approach, backed by technical knowledge of open technology, which facilitates sustainable, replicable decisions with social impact.",
   },
