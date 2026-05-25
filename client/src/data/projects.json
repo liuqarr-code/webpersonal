@@ -25,9 +25,9 @@
     "CA": "Visitant ESBRINA"
   },
   "category": {
-    "ES": "Docencia",
-    "EN": "Teaching",
-    "CA": "Docència"
+      "ES": "Academia",
+      "EN": "Academia",
+      "CA": "Acadèmia"
   },
   "year": "2026",
   "description": {
@@ -94,6 +94,25 @@
     },
     "link": "https://www.hactebcn.org/es/actualitat/el-proyecto-al-calor-devenimos-hembras-seleccionado-para-la-beca-barcelona-crea-hacte/"
   },
+    {
+  "title": {
+    "ES": "Premio Ciudad de Barcelona",
+    "EN": "Barcelona City Award",
+    "CA": "Premi Ciutat de Barcelona"
+  },
+  "category": {
+    "ES": "Jurado",
+    "EN": "Jury",
+    "CA": "Jurat"
+  },
+  "year": "2026",
+  "description": {
+    "ES": "Miembro del jurado en la categoría de Cultura Digital.",
+    "EN": "Jury member in the Digital Culture category.",
+    "CA": "Membre del jurat en la categoria de Cultura Digital."
+  },
+  "link": "https://premsaicub.bcn.cat/2026/01/30/els-premis-ciutat-de-barcelona-2025-distingeixen-lexcellencia-en-els-ambits-de-la-cultura-la-ciencia-i-leducacio-amb-reconeixements-agrupats-en-19-categories/"
+},
   {
     "title": {
       "ES": "Zona Hacker",
@@ -101,9 +120,9 @@
       "CA": "Zona Hacker"
     },
     "category": {
-      "ES": "Laboratorio",
-      "EN": "Lab",
-      "CA": "Laboratori"
+      "ES": "Programa Público",
+      "EN": "Public Program",
+      "CA": "Programa Públic"
     },
     "year": "2025–2026",
     "description": {
@@ -113,6 +132,25 @@
     },
     "link": "https://zonahacker.arsgames.net/"
   },
+  {
+  "title": {
+    "ES": "Del Indiepocalypse al Indieverse",
+    "EN": "From Indiepocalypse to Indieverse",
+    "CA": "De l'Indiepocalypse a l'Indieverse"
+  },
+  "category": {
+    "ES": "Academia",
+    "EN": "Academia",
+    "CA": "Acadèmia"
+  },
+  "year": "2025",
+  "description": {
+    "ES": "Conferencia magistral en el I3V 2025",
+    "EN": "Keynote at the I3V 2025",
+    "CA": "Conferència magistral al I3V 2025."
+  },
+  "link": "https://i3v.citm.upc.edu/?page_id=131&lang=es"
+},
   {
     "title": {
       "ES": "Nostalgia de Futuro: atravesando el colapso ",
@@ -271,9 +309,9 @@
       "CA": "Direcció de Tesi"
     },
     "category": {
-      "ES": "Docencia",
-      "EN": "Teaching",
-      "CA": "Docència"
+      "ES": "Academia",
+      "EN": "Academia",
+      "CA": "Acadèmia"
     },
     "year": "2025",
     "description": {
@@ -284,15 +322,34 @@
     "link": "#"
   },
   {
+  "title": {
+    "ES": "Diálogos Industria Videojuego",
+    "EN": "Video Game Industry Dialogues",
+    "CA": "Diàlegs Indústria Videojoc"
+  },
+  "category": {
+    "ES": "Programa Público",
+    "EN": "Public Program",
+    "CA": "Programa Públic"
+  },
+  "year": "2024",
+  "description": {
+    "ES": "Ciclo de conversaciones España-Japón.",
+    "EN": "Spain-Japan conversation cycle.",
+    "CA": "Cicle de converses Espanya-Japó."
+  },
+  "link": "https://www.youtube.com/watch?v=pyZD4f6cJ2s"
+},
+  {
     "title": {
       "ES": "Docencia Máster",
       "EN": "Master's Teaching",
       "CA": "Docència Màster"
     },
     "category": {
-      "ES": "Docencia",
-      "EN": "Teaching",
-      "CA": "Docència"
+      "ES": "Academia",
+      "EN": "Academia",
+      "CA": "Acadèmia"
     },
     "year": "2023–2026",
     "description": {

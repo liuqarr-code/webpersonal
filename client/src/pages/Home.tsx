@@ -25,6 +25,7 @@ const roles: Role[] = [
     line1: { ES: "CONSULTOR", EN: "TECH & CULTURE", CA: "CONSULTOR" },
     line2: { ES: "TECNOLOGÍA Y CULTURA", EN: "CONSULTANT", CA: "TECNOLOGIA I CULTURA" }
   }
+  
 ];
 
 export default function Home() {
